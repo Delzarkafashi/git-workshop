@@ -9,9 +9,6 @@ Syftet med workshopen är att ge grundläggande kunskaper i Git och GitHub infö
 ## Förkunskaper
 
 - Grundläggande datorvana
-- Git installerat
-- GitHub-konto
-- Visual Studio Code
 
 ## Innehåll
 
