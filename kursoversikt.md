@@ -1,162 +1,81 @@
-# Git Introduktion och Workshop
+### Upplägg
 
-## Workshopdagar (Måndag, Tisdag, Onsdag och Torsdag)
+Workshoparna bygger på praktiska Git-problem som studerande ofta stöter på i verkliga projekt.
 
-## Måndag – Introduktion till Git och GitHub (3 timmar)
+Inför varje workshop får de studerande arbeta med repositoryn som innehåller olika problem och situationer. Uppgiften är att analysera problemet, testa olika lösningar och hitta ett fungerande sätt att lösa det med hjälp av Git.
 
-### Introduktion
+Svårighetsgraden ökar successivt mellan workshoparna. Fokus ligger på att testa, göra misstag, felsöka och lära sig genom praktiskt arbete.
 
-- Presentation av kursen och upplägget
-- Vad är versionshantering?
-- Vad är Git?
-- Vad är GitHub?
-- Varför använder företag Git?
-
-### Praktisk förberedelse
-
-- Installera Git
-- Skapa GitHub-konto
-- Genomgång av VS Code och terminalen
-- Visa hur Git fungerar i praktiken
-
-#### Förberedelse inför morgondagens workshop
-
-- Genomgång av morgondagens material
-- Frågor kring morgondagens innehåll
-
-## Tisdag – Första commits (3 timmar)
-
-### 00:00 – 00:50
-
-#### Demonstration
-
-- git init
-- git status
-- git add
-- git commit
-- git log
-
-### 00:50 – 01:00
-
-- Paus
-
-### 01:00 – 02:15
-
-#### Övningar
-
-- Skapa eget repository
-- Skapa filer
-- Göra flera commits
-- Läsa commit-historik
-- Träna på vanliga Git-kommandon
-
-### 02:15 – 02:25
-
-- Paus
-
-### 02:25 – 02:45
-
-#### Kunskapsavstämning
-
-- Självrättande quiz kopplat till dagens innehåll
-- Frågor och reflektioner
-
-### 02:45 – 03:00
-
-#### Förberedelse inför morgondagens workshop
-
-- Genomgång av morgondagens material
-- Frågor kring morgondagens innehåll
+Målet är att ge de studerande erfarenhet av vanliga Git-situationer som kan uppstå under utvecklingsarbete och samarbete i projekt.
 
 ---
 
-## Onsdag – GitHub och samarbete (3 timmar)
+## Workshop 1 – Grunder
 
-### 00:00 – 00:50
+### Case 1
 
-#### Demonstration
+Jag committade fel fil.
 
-- git clone
-- git push
-- git pull
-- git restore
-- git revert
+### Case 2
 
-### 00:50 – 01:00
+Jag gjorde en commit med fel innehåll.
 
-- Paus
+### Case 3
 
-### 01:00 – 02:15
+Jag vill ångra ändringar i en fil.
 
-#### Övningar
+### Case 4
 
-- Arbeta två och två
-- Pusha ändringar till GitHub
-- Hämta ändringar från GitHub
-- Samarbeta i samma repository
-- Skapa en ändring och ångra den med git restore
-- Skapa en commit och återställ den med git revert
+Jag vill återställa flera filer.
 
-### 02:15 – 02:25
+### Case 5
 
-- Paus
-
-### 02:25 – 02:45
-
-#### Kunskapsavstämning
-
-- Självrättande quiz kopplat till dagens innehåll
-- Frågor och reflektioner
-
-### 02:45 – 03:00
-
-#### Förberedelse inför morgondagens workshop
-
-- Genomgång av morgondagens material
-- Frågor kring morgondagens innehåll
+Jag vill gå tillbaka till en tidigare commit.
 
 ---
 
-## Torsdag – Brancher och Pull Requests (3 timmar)
+## Workshop 2 – GitHub och brancher
 
-### 00:00 – 00:50
+### Case 1
 
-#### Demonstration
+Jag glömde hämta senaste ändringarna från GitHub.
 
-- git branch
-- git checkout
-- git switch
-- git merge
-- Pull Request
+### Case 2
 
-### 00:50 – 01:00
+Min git push nekas.
 
-- Paus
+### Case 3
 
-### 01:00 – 02:15
+Jag vill hämta in ändringar från dev till min branch.
 
-#### Övningar
+### Case 4
 
-- Skapa egna brancher
-- Göra ändringar i brancher
-- Slå ihop brancher
-- Simulera samarbete i projektgrupper
-- Genomföra en Pull Request
+Jag råkade göra commit på fel branch.
 
-### 02:15 – 02:25
+### Case 5
 
-- Paus
+Två personer har ändrat samma fil.
 
-### 02:25 – 02:45
+---
 
-#### Kunskapsavstämning
+## Workshop 3 – Konflikter och återställning
 
-- Självrättande quiz kopplat till dagens innehåll
-- Frågor och reflektioner
+### Case 1
 
-### 02:45 – 03:00
+Jag får en merge-konflikt.
 
-#### Avslutning
+### Case 2
 
-- Summering av veckan
-- Frågor och reflektioner
+Jag vill behålla mina ändringar vid en konflikt.
+
+### Case 3
+
+Jag vill behålla den andra personens ändringar vid en konflikt.
+
+### Case 4
+
+Jag vill behålla båda versionerna vid en konflikt.
+
+### Case 5
+
+Jag vill återställa efter en felaktig merge.
